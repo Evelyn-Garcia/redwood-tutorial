@@ -3627,7 +3627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:3.0.3":
+"@redwoodjs/api@npm:3.0.3, @redwoodjs/api@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/api@npm:3.0.3"
   dependencies:
@@ -3668,7 +3668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/auth@npm:3.0.3":
+"@redwoodjs/auth@npm:3.0.3, @redwoodjs/auth@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/auth@npm:3.0.3"
   dependencies:
@@ -3726,7 +3726,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/core@npm:3.0.3":
+"@redwoodjs/core@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/core@npm:3.0.3"
   dependencies:
@@ -3824,7 +3824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/forms@npm:3.0.3":
+"@redwoodjs/forms@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/forms@npm:3.0.3"
   dependencies:
@@ -3839,7 +3839,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/graphql-server@npm:3.0.3":
+"@redwoodjs/graphql-server@npm:3.0.3, @redwoodjs/graphql-server@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/graphql-server@npm:3.0.3"
   dependencies:
@@ -3933,7 +3933,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/router@npm:3.0.3":
+"@redwoodjs/router@npm:3.0.3, @redwoodjs/router@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/router@npm:3.0.3"
   dependencies:
@@ -4036,7 +4036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/web@npm:3.0.3":
+"@redwoodjs/web@npm:3.0.3, @redwoodjs/web@npm:^3.0.3":
   version: 3.0.3
   resolution: "@redwoodjs/web@npm:3.0.3"
   dependencies:
@@ -7262,8 +7262,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 3.0.3
-    "@redwoodjs/graphql-server": 3.0.3
+    "@redwoodjs/api": ^3.0.3
+    "@redwoodjs/graphql-server": ^3.0.3
   languageName: unknown
   linkType: soft
 
@@ -20637,7 +20637,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@redwoodjs/core": 3.0.3
+    "@redwoodjs/core": ^3.0.3
   languageName: unknown
   linkType: soft
 
@@ -23677,10 +23677,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
-    "@redwoodjs/auth": 3.0.3
-    "@redwoodjs/forms": 3.0.3
-    "@redwoodjs/router": 3.0.3
-    "@redwoodjs/web": 3.0.3
+    "@redwoodjs/auth": ^3.0.3
+    "@redwoodjs/forms": ^3.0.3
+    "@redwoodjs/router": ^3.0.3
+    "@redwoodjs/web": ^3.0.3
     "@tailwindcss/aspect-ratio": 0.4.0
     "@tailwindcss/forms": 0.5.2
     "@tailwindcss/line-clamp": 0.4.0
